@@ -1,0 +1,150 @@
+body {
+  background-color: cadetblue;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+header {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  list-style: none;
+  background-color: rgb(224, 181, 124);
+}
+nav ul li {
+  padding: 1px;
+  width: 100%;
+  border-right: 1px solid black;
+}
+nav ul li img {
+  width: 50px;
+  height: 50px;
+}
+#contenedor-tabla {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+#tablaequipos {
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: rgb(219, 125, 125);
+  width: 100%;
+}
+
+#tablaequipos th {
+  background-color: aquamarine;
+  border: none;
+  color: rgb(14, 6, 121);
+  padding: 2px;
+}
+#tablaequipos td {
+  padding: 5px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+#infoganador {
+  background-color: rgb(202, 111, 36);
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+  width: 30%;
+}
+
+#botones {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+}
+#botones button {
+  padding: 5px;
+  border: none;
+  background-color: darkgreen;
+  width: 50%;
+  color: wheat;
+  cursor: pointer;
+  border-right: 1.5px solid white;
+  border-bottom: 1.5px solid white;
+}
+
+#botones button:hover {
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+footer p {
+  padding: 3px;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+@media (max-width: 700px) {
+  #contenedor-tabla {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #infoganador {
+    background-color: rgb(202, 111, 36);
+    color: white;
+    padding: 5px;
+    font-family: sans-serif;
+    width: 50%;
+  }
+  #botones {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    list-style: none;
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 30%;
+  }
+  nav ul li {
+    padding: 1px;
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+  }
+  footer p {
+    padding: 3px;
+    border-right: 1px solid rgb(255, 255, 255);
+  }
+}

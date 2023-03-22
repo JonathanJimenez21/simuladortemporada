@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Simulador de Liga</title>
+  </head>
+  <body>
+    <header>
+      <h1>SIMULADOR DE LIGA DE FÚTBOL</h1>
+      <h2>EQUIPOS PARTICIPANTES</h2>
+
+      <nav>
+        <ul>
+          <li>
+            <img src="imagenes/Alajuelense.png" alt="" />
+          </li>
+          <li>
+            <img src="imagenes/saprissa.png" alt="" />
+          </li>
+          <li><img src="imagenes/cartagines.png" alt="" /></li>
+          <li><img src="imagenes/herediano.png" alt="" /></li>
+          <li><img src="imagenes/sancarlos.png" alt="" /></li>
+          <li><img src="imagenes/guanacaste.png" alt="" /></li>
+          <li><img src="imagenes/grecia.png" alt="" /></li>
+          <li><img src="imagenes/guadalupe.png" alt="" /></li>
+          <li><img src="imagenes/santos.png" alt="" /></li>
+          <li><img src="imagenes/perezzeledon.png" alt="" /></li>
+          <li><img src="imagenes/puntarenas.png" alt="" /></li>
+          <li><img src="imagenes/sporting.png" alt="" /></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <div id="contenedor-tabla">
+      <table id="tablaequipos"></table>
+      <section id="infoganador"></section>
+    </div>
+    <br />
+    <div id="botones">
+      <button id="btngenerar">GENERAR SIMULACIÓN</button>
+      <button id="btnreset">REINICIAR</button>
+      <button id="btnhowto">¿COMO SE SIMULA?</button>
+    </div>
+    <footer>
+      <p>PJ: Partidos Jugados</p>
+      <p>PTS: Puntos</p>
+      <p>PG: Partidos Ganados</p>
+      <p>PP: Partidos Perdidos</p>
+      <p>PE: Partidos Empatados</p>
+      <p>GF: Goles a Favor</p>
+      <p>GC: Goles en Contra</p>
+      <p>DIF: Diferencia de Goles</p>
+    </footer>
+    <script src="js/Equipos.js"></script>
+    <script src="js/simulador.js"></script>
+  </body>
+</html>
